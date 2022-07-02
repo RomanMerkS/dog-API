@@ -26,7 +26,7 @@ async function init() {
   // add event listeners
   breedSelect.addEventListener("change", handleBreedChange);
 
-  main.addEventListener("load", function() {
+  main.addEventListener("load", function () {
     main.classList.add("show");
     loader.classList.remove("show");
   });
